@@ -8,7 +8,6 @@
  * @value: Value to assign to the new node
  * Return: a pointer to the uncle node
  */
-
 binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value)
 {
 	binary_tree_t *new_node;
