@@ -2,10 +2,10 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_leaves - Traverses a binary tree using depth
+ * binary_tree_leaves - Counts the leaves in a binary tree
  *
- * @tree: Pointer to the root node of the tree to traverse
- * Return: return i
+ * @tree: Pointer to the root node of the tree to count the leaves
+ * Return: Number of leaves in the tree
  */
 size_t binary_tree_leaves(const binary_tree_t *tree)
 {
